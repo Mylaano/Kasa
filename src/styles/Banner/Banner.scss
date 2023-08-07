@@ -6,6 +6,11 @@
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+
+    @media (max-width: 375px) {
+        height: 111px;
+        margin-top: 27px;
+    }
     
     img {
         width: 100%;
@@ -13,6 +18,10 @@
         border-radius: 25px;
         object-fit: cover;
         filter: brightness(70%);
+
+        @media (max-width: 375px) {
+            border-radius: 10px;
+        }
     }
 
     figcaption {
@@ -20,5 +29,11 @@
         color: #FFFFFF;
         font-size: 48px;
         font-weight: 500;
+
+        @media (max-width: 375px) {
+            font-size: 24px;
+            left: 16px;
+            width: 225px;
+        }
     }
 }

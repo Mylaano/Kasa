@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
+import '../styles/Tag/Tag.css';
 
 export default function Tag(props) {
     const { name } = props;
-    return <li>{name}</li>;
+    return <li className="tag">{name}</li>;
 }
 
 Tag.propTypes = {

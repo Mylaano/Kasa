@@ -7,6 +7,10 @@
     text-decoration: none;
     position: relative;
 
+    @media (max-width: 375px) {
+        height: 255px;
+    }
+
     figure {
         height: 100%;
 

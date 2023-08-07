@@ -6,19 +6,39 @@
     margin: 139px auto;
     color: #FF6060;
 
+    @media (max-width: 375px) {
+        gap: 113px;
+        margin: 113px auto;
+    }
+
     &__title {
         font-size: 288px;
         font-weight: 700;
+
+        @media (max-width: 375px) {
+            font-size: 96px;
+        }
     }
 
     &__desc {
         font-size: 36px;
         font-weight: 500;
+
+        @media (max-width: 375px) {
+            width: 260px;
+            font-size: 18px;
+            text-align: center;
+            line-height: 25px;
+        }
     }
 
     &__link {
         color: #FF6060;
         font-size: 18px;
         font-weight: 500;
+
+        @media (max-width: 375px) {
+            font-size: 14px;
+        }
     }
 }

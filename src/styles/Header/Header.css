@@ -4,10 +4,21 @@ header {
   justify-content: space-between;
   margin-top: 45px;
 }
+@media (max-width: 375px) {
+  header {
+    margin-top: 20px;
+  }
+}
 
 .header__logo {
   width: 210px;
   height: 68px;
+}
+@media (max-width: 375px) {
+  .header__logo {
+    width: 145px;
+    height: 47px;
+  }
 }
 .header__logo img {
   width: 100%;
@@ -20,11 +31,22 @@ header {
   display: flex;
   gap: 57px;
 }
+@media (max-width: 375px) {
+  .navbar {
+    gap: 26px;
+  }
+}
 .navbar__link a {
   color: #FF6060;
   text-decoration-color: transparent;
   font-size: 24px;
   font-weight: 500;
+}
+@media (max-width: 375px) {
+  .navbar__link a {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
 }
 .navbar__link--active a {
   text-decoration-color: #FF6060;

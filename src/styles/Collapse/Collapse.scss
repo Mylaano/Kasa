@@ -12,12 +12,22 @@
         border-radius: 5px;
         padding: 10px 20px;
         cursor: pointer;
+
+        @media (max-width: 375px) {
+            padding: 10px;
+            width: auto;
+            height: 10px;
+        }
     }
     
     &__title {
         color: #FFFFFF;
         font-size: 24px;
         font-weight: 500;
+
+        @media (max-width: 375px) {
+            font-size: 13px;
+        }
     }
     
     &__content {
@@ -34,11 +44,17 @@
             color: #FF6060;
             padding: 15px;
             line-height: 25px;
+
+            @media (max-width: 375px) {
+                font-size: 12px;
+                line-height: 17px;
+                font-weight: 400;
+            }
         }
     }
     
     &--active &__content {
-        max-height: 180px;
+        max-height: 375px;
         height: 100%;
     }
     
@@ -47,6 +63,11 @@
         height: 32px;
         object-fit: cover;
         transition: transform 500ms;
+
+        @media (max-width: 375px) {
+            width: 16px;
+            height: 9px;
+        }
     }
 
     &--active &__icon {

@@ -1,0 +1,11 @@
+.tag {
+    background-color: #FF6060;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 2px 25px;
+
+    @media (max-width: 375px) {
+        font-size: 10px;
+        border-radius: 5px;
+    }
+}

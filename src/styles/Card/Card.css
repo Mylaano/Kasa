@@ -7,6 +7,11 @@
   text-decoration: none;
   position: relative;
 }
+@media (max-width: 375px) {
+  .card {
+    height: 255px;
+  }
+}
 .card figure {
   height: 100%;
 }

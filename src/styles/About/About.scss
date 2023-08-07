@@ -1,7 +1,13 @@
 .collapse__container {
-    width: calc(100% - 217px);
     display: flex;
     flex-direction: column;
     gap: 30px;
     margin: 38px auto;
+    padding: 0 108px;
+
+    @media (max-width: 375px) {
+        padding: 0;
+        margin: 19px auto;
+        gap: 20px;
+    }
 }
