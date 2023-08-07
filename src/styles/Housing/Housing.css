@@ -1,0 +1,61 @@
+.housing {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.housing__title {
+  color: #FF6060;
+  font-size: 36px;
+  font-weight: 500;
+}
+.housing__location {
+  color: #FF6060;
+  font-size: 18px;
+}
+.housing__tags {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.housing__tags li {
+  background-color: #FF6060;
+  color: #FFFFFF;
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+.housing__profil {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 10px;
+}
+.housing__profil img {
+  width: 64px;
+  height: 64px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.housing__profil figcaption {
+  color: #FF6060;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: right;
+  width: -moz-min-content;
+  width: min-content;
+}
+.housing__right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.collapses {
+  margin: 24px auto 50px;
+  display: flex;
+  align-items: stretch;
+  gap: 76px;
+}
+.collapses .collapse__title {
+  font-size: 18px;
+}/*# sourceMappingURL=Housing.css.map */

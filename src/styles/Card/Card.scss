@@ -1,0 +1,30 @@
+.card {
+    display: block;
+    width: 100%;
+    height: 340px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FF6060, #803030);
+    text-decoration: none;
+    position: relative;
+
+    figure {
+        height: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        
+        figcaption {
+            font-size: 18px;
+            font-weight: 500;
+            color: #FFFFFF;
+            position: absolute;
+            margin: auto 20px;
+            bottom: 20px;
+        }
+    }
+
+}

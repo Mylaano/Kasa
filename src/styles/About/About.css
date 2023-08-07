@@ -1,0 +1,7 @@
+.collapse__container {
+  width: calc(100% - 217px);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 38px auto;
+}/*# sourceMappingURL=About.css.map */

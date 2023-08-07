@@ -1,0 +1,34 @@
+.carousel {
+  margin-top: 50px;
+  height: 415px;
+  position: relative;
+}
+.carousel__picture {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+}
+.carousel__arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 23px;
+  cursor: pointer;
+}
+.carousel__arrow--left {
+  left: 0;
+}
+.carousel__arrow--right {
+  right: 0;
+}
+.carousel__page {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 18px;
+}/*# sourceMappingURL=Carousel.css.map */
